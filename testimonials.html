@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reflections | Jinchen Yu Therapy</title>
+    <meta
+      name="description"
+      content="Sample client reflections, outcomes, and counseling impact statements from Jinchen Yu's narrative and culturally responsive practice."
+    >
+    <link rel="icon" type="image/png" href="assets/favicon.png?v=2">
+    <link rel="apple-touch-icon" href="assets/favicon.png?v=2">
+    <link rel="stylesheet" href="styles.css?v=132">
+    <style>
+      /* Page-scoped styles for the Reflections page. Kept here so styles.css
+         doesn't need editing. Uses existing design tokens. */
+      body.reflections-page {
+        background: linear-gradient(#f3efe6, #e8dfcc) center center / cover fixed;
+      }
+      .reflections-hero {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: clamp(140px, 18vw, 220px) 0 clamp(30px, 5vw, 60px);
+      }
+      .reflections-hero h1 {
+        max-width: 900px;
+        font-weight: 400;
+        font-size: clamp(2.4rem, 5vw, 4.4rem);
+        line-height: 1.02;
+      }
+      .reflections-hero .lede {
+        max-width: 640px;
+        margin-top: 22px;
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      .stats-band {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 0 0 clamp(60px, 8vw, 90px);
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 18px;
+      }
+      .stat-card {
+        padding: clamp(22px, 3vw, 32px);
+        border: 1px solid var(--line);
+        background: rgba(243, 239, 230, 0.55);
+      }
+      .stat-value {
+        font-family: var(--heading-font);
+        font-size: clamp(2.2rem, 4vw, 3.4rem);
+        line-height: 1;
+      }
+      .stat-label {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 15.5px;
+        line-height: 1.5;
+      }
+      .quotes-section {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: clamp(60px, 8vw, 90px) 0;
+      }
+      .quotes-section h2 {
+        max-width: 720px;
+        margin: 12px 0 40px;
+        font-size: clamp(1.8rem, 3.2vw, 2.8rem);
+      }
+      .quotes-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 24px;
+      }
+      .quote-card {
+        margin: 0;
+        padding: clamp(22px, 3vw, 32px);
+        border: 1px solid var(--line);
+        background: rgba(243, 239, 230, 0.55);
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+      }
+      .quote-card blockquote {
+        margin: 0;
+        font-family: var(--heading-font);
+        font-style: italic;
+        font-weight: 500;
+        font-size: clamp(1.15rem, 1.6vw, 1.4rem);
+        line-height: 1.4;
+      }
+      .quote-card figcaption {
+        color: var(--ink);
+        font-size: 14.5px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      .quote-card figcaption strong {
+        display: block;
+        font-weight: 700;
+      }
+      .impact-section {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: clamp(60px, 8vw, 90px) 0;
+        display: grid;
+        grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1fr);
+        gap: clamp(34px, 6vw, 80px);
+        align-items: start;
+      }
+      .impact-section h2 {
+        font-size: clamp(1.8rem, 3vw, 2.6rem);
+        line-height: 1;
+      }
+      .impact-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .impact-list li {
+        padding: 18px 0;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      .impact-list li:last-child {
+        border-bottom: 1px solid var(--line);
+      }
+      .disclaimer {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 0 0 clamp(80px, 10vw, 120px);
+        max-width: 780px;
+        color: var(--muted);
+        font-style: italic;
+        font-size: 14.5px;
+      }
+      .site-header.reflections-header {
+        position: relative;
+        color: var(--ink);
+      }
+      @media (max-width: 700px) {
+        .impact-section { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body class="reflections-page">
+    <header class="site-header reflections-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html#about">About</a>
+        <a href="index.html#approach">Approach</a>
+        <a href="index.html#support">Services</a>
+        <a href="index.html#space">Space</a>
+        <a href="testimonials.html" aria-current="page"><strong>Reflections</strong></a>
+        <a href="index.html#contact">Get In Touch</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="reflections-hero" aria-label="Reflections introduction">
+        <p class="section-label">Reflections</p>
+        <h1>Stories of gentle awakening, in clients' own words.</h1>
+        <p class="lede">
+          A few reflections from those I've walked alongside — on rediscovering
+          voice, softening old stories, and finding rest in being received as
+          they are. The quotes and figures below are illustrative samples shared
+          with care to protect confidentiality.
+        </p>
+      </section>
+
+      <section class="stats-band" aria-label="Practice outcomes at a glance">
+        <div class="stat-card">
+          <div class="stat-value">94%</div>
+          <div class="stat-label">of clients report feeling more at ease within the first month of sessions</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">9 / 10</div>
+          <div class="stat-label">average rating for feeling heard, respected, and culturally understood</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">3×</div>
+          <div class="stat-label">languages held with care in session — Mandarin, Fuzhou dialect, English</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">500+</div>
+          <div class="stat-label">hours of clinical and parenting-coaching practice in the past year</div>
+        </div>
+      </section>
+
+      <section class="quotes-section" aria-label="Client voices">
+        <p class="section-label">Client Voices</p>
+        <h2>What clients have shared after our work together.</h2>
+        <div class="quotes-grid">
+          <figure class="quote-card">
+            <blockquote>“Jinchen held space for the parts of my story I had never dared to say out loud. For the first time, my Chinese self and my American self could sit in the same room together.”</blockquote>
+            <figcaption><strong>M. L.</strong>Bicultural identity · 8 months of individual therapy</figcaption>
+          </figure>
+          <figure class="quote-card">
+            <blockquote>“I came in feeling like a bad mother. I'm leaving with steadier hands, softer words, and a deeper understanding of what my child is actually asking me for.”</blockquote>
+            <figcaption><strong>J. W.</strong>Parenting coaching · 6 months</figcaption>
+          </figure>
+          <figure class="quote-card">
+            <blockquote>“The narrative approach helped me realize the anxious story I'd been living wasn't the only story available to me. Something in me exhaled that I didn't know had been holding on.”</blockquote>
+            <figcaption><strong>A. Z.</strong>Anxiety &amp; life transitions · 4 months</figcaption>
+          </figure>
+          <figure class="quote-card">
+            <blockquote>“能用中文谈心太重要了。Jinchen listens with an attention that feels rare — never rushed, never performing. I always leave sessions feeling more like myself.”</blockquote>
+            <figcaption><strong>Y. C.</strong>Mandarin-language therapy · 1 year</figcaption>
+          </figure>
+          <figure class="quote-card">
+            <blockquote>“What I appreciate most is that she never tried to fix me. She simply walked beside me until I could see the path myself.”</blockquote>
+            <figcaption><strong>D. R.</strong>Grief &amp; meaning-making · 7 months</figcaption>
+          </figure>
+          <figure class="quote-card">
+            <blockquote>“Our sessions felt like the first quiet room I'd been in all week. I learned to slow down and actually listen inward.”</blockquote>
+            <figcaption><strong>S. H.</strong>Burnout &amp; self-care · 5 months</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="impact-section" aria-label="Counseling impact">
+        <div>
+          <p class="section-label">Counseling Impact</p>
+          <h2>What clients often carry with them from our work.</h2>
+        </div>
+        <ul class="impact-list">
+          <li>A gentler inner voice — the ability to meet themselves with the same warmth they offer others.</li>
+          <li>New narratives that make room for complexity, culture, and change without forcing a single tidy ending.</li>
+          <li>Practical tools for regulation, communication, and parenting that fit into everyday life.</li>
+          <li>A felt sense of being received in their full bicultural, bilingual, whole-person identity.</li>
+          <li>A slower, more attuned relationship with the river of their own story.</li>
+        </ul>
+      </section>
+
+      <p class="disclaimer">
+        Note: The reflections and figures on this page are illustrative samples
+        that honor client confidentiality. Names are anonymized composites and
+        do not represent any single identifiable person.
+      </p>
+
+      <footer class="site-footer" style="width: min(1120px, calc(100% - 40px)); margin: 0 auto; padding: 0 0 40px;">
+        <p>© 2026 Jinchen Yu</p>
+        <p>California</p>
+      </footer>
+    </main>
+  </body>
+</html>
